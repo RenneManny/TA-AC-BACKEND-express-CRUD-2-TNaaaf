@@ -21,7 +21,7 @@ Q. Create an Online bookstore where you can display a list of books.
 
 - author will have `name`, `email`, `country`
 
-4. An author can have multiple books authored by him.
+4. An author can  have multiple books authored by him.
 
 Design thier models and associate in such a way that you should be able to list books
 
