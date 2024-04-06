@@ -1,0 +1,36 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-color: yellow; */
+}
+
+a {
+  color: #00B7FF;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+strong{
+  font-size: 24px;
+}
+.goto{
+  text-decoration: none;
+  border: 2px solid green;
+  padding: 10px 12px;
+  cursor: pointer;
+
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  /* border: 1px solid black; */
+  text-align: center;
+}

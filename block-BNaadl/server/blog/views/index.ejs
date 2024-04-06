@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blog</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <header>
+    <div class="container ">
+      <!-- Your content goes here -->
+      <div class="flex">
+        <div class="logo"><strong>Blogs</strong></div>
+        <a class="goto" href="">Go to Blogs</a>
+      </div>
+
+    </div>
+  </header>
+  <div class="main">
+    <section>
+     <% Blogs.forEach(title => { %>
+      <p><% title %></p>
+    <% }); %>
+    </section>
+  </div>
+</body>
+
+</html>
